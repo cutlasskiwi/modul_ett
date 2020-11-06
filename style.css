@@ -1,0 +1,51 @@
+body {
+  background-image: url("http://www.yazdan.se/wp-content/uploads/2020/04/blue-universe-956981.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  background-color: rgba(107, 107, 250, 0.4);
+  margin: 0 auto;
+  border-radius: 20px;
+  width: 50%;
+  max-width: 900px;
+  padding: 20px;
+  font-family: "Muli", sans-serif;
+}
+
+.form-header {
+  width: 60%;
+  margin: auto;
+  padding: 5px 0px 0px 50px;
+}
+
+.form-container {
+  color: #fff;
+  width: 50%;
+  margin: auto;
+  padding: 30px;
+  border-radius: 1px;
+  box-shadow: 0px 0px 0px 4px rgba(255, 255, 255, 0.5);
+}
+
+.title {
+  color: #fff;
+}
+
+.description {
+  color: #fff;
+}
+
+.name {
+  color: #fff;
+}
+
+.radio_btn {
+  width: 10%;
+}
+
+.infoColor {
+  color: #6daee3;
+}

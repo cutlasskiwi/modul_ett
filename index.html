@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Koda Fritt 1</title>
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+  </head>
+    <body>
+      <div class="wrapper">
+        <div class="form-header">
+          <h1 class="title">Cutlasskiwi's Sci-Fi Survey</h1>
+
+          <p class="description">
+            What's your favorite Science Fiction franchise?
+          </p>
+          <br />
+        </div>
+        <!--form-header-->
+
+        <div class="form-container">
+          <form class="survey-form">
+            <label for="name" class="name-label, info">Name:</label><br />
+            <input
+              id="name"
+              type="text"
+              name="name"
+              placeholder="What is your name?"
+              required
+            /><br />
+
+            <label for="email" class="email-label, info">Email</label><br />
+            <input
+              id="email"
+              type="email"
+              name="email"
+              class="input-field"
+              placeholder="What is your email?"
+              required
+            /><br />
+
+            <label for="number" class="number-label, info">What's your age?</label
+            ><br />
+            <input
+              type="number"
+              id="number"
+              name="number"
+              min="18"
+              max="150"
+              placeholder="18+"
+              required
+            /><br /><br /><br />
+
+            <label class="dropdown-label"
+              >What's your favorite Sci-Fi franchise?</label
+            ><br />
+            <select class="dropdown" name="franchise">
+              <option value="staw-wars">Star Wars</option>
+              <option value="star-trek">Star Trek</option>
+              <option value="expanse">The Expanse</option>
+              <option value="firefly">Firefly</option>
+              <option value="matrix">The Matrix</option>
+              <option value="dr-who">Dr Who</option>
+              <option value="jurassic-park">Jurassic Park</option>
+              <option value="battlestar-galactica">Battlestar Galactica</option>
+              <option value="alien">Alien</option>
+              <option value="mad-max">Mad Max</option>
+              <option value="stargate">Stargate</option>
+              <option value="flash-gordon">Flash Gordon</option>
+              <option value="x-files">The X-Files</option>
+              <option value="terminator">The Terminator</option>
+              <option value="predator">Predator</option>
+              <option value="terminator">Other</option></select
+            ><br /><br />
+
+            <p class="radio.btn" id="radio.btn"></p>
+            <input type="radio" id="yes" name="favorite" value="yes" />
+            <label for="yes">Yes</label><br />
+            <input type="radio" id="no" name="favorite" value="no" />
+            <label for="No">No</label><br /><br />
+
+            <p class="checkbox.text">What do you like about Sci-Fi?</p>
+            <input
+              type="checkbox"
+              id="choice1"
+              name="choice1"
+              value="space-travel"
+              class="choice"
+            />
+            <label for="choice1"> Space travel</label><br />
+            <input type="checkbox" id="choice2" name="choice2" value="aliens" class="choice" />
+            <label for="choice2"> Aliens</label><br />
+            <input
+              type="checkbox"
+              id="choice3"
+              name="choice3"
+              value="spaceship-battles"
+              class="choice"
+            />
+            <label for="choice3"> Spaceship Battles</label><br />
+            <input type="checkbox" id="choice4" name="choice4" value="lasers" />
+            <label for="choice4"> Lasers</label><br />
+            <input
+              type="checkbox"
+              id="choice5"
+              name="choice5"
+              value="diplomatic-conflicts"
+              class="choice"
+            />
+            <label for="choice5"> Diplomatic Conflicts</label><br />
+            <input
+              type="checkbox"
+              id="choice6"
+              name="choice6"
+              value="physics"
+              class="choice"
+            />
+            <label for="choice6"> Physics</label><br />
+            <input type="checkbox" id="choice7" name="choice7" value="other" class="choice" />
+            <label for="choice7"> Other</label><br /><br />
+
+            <label class="text-box"
+              >If you had the power to create a crossover between two Sci-Fi
+              franchises.<br />
+              Which would you pick and why?:</label
+            ><br />
+            <textarea
+              type="text"
+              placeholder="Please leave your comment here."
+            ></textarea
+            ><br /><br />
+
+            <button class="submit" class="button" type="submit">Submit</button>
+            
+          </form>
+          <button class="clear" class="button" id="clear">Reload</button>
+        </div>
+        <!--form-->
+      </div>
+      <!--wrapper-->
+    </body>
+    <script src="./app.js"></script>
+  </body>
+</html>
